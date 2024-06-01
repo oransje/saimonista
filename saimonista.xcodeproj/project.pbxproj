@@ -13,8 +13,9 @@
 /* Begin PBXFileReference section */
 		E2FFFCFF2C0BD88500F81072 /* saimonista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saimonista.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FFFD0C2C0BD88800F81072 /* saimonista.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = saimonista.entitlements; sourceTree = "<group>"; };
-		E2FFFD132C0BDC1A00F81072 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E2FFFD132C0BDC1A00F81072 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = saimonista/README.md; sourceTree = "<group>"; };
 		E2FFFD142C0BDF8500F81072 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		E2FFFD162C0BE15400F81072 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,7 +32,10 @@
 		E2FFFCF62C0BD88500F81072 = {
 			isa = PBXGroup;
 			children = (
-				E2FFFD012C0BD88500F81072 /* saimonista */,
+				E2FFFD162C0BE15400F81072 /* .gitignore */,
+				E2FFFD132C0BDC1A00F81072 /* README.md */,
+				E2FFFD0C2C0BD88800F81072 /* saimonista.entitlements */,
+				E2FFFD122C0BDC0600F81072 /* src */,
 				E2FFFD002C0BD88500F81072 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -42,16 +46,6 @@
 				E2FFFCFF2C0BD88500F81072 /* saimonista.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E2FFFD012C0BD88500F81072 /* saimonista */ = {
-			isa = PBXGroup;
-			children = (
-				E2FFFD122C0BDC0600F81072 /* src */,
-				E2FFFD0C2C0BD88800F81072 /* saimonista.entitlements */,
-				E2FFFD132C0BDC1A00F81072 /* README.md */,
-			);
-			path = saimonista;
 			sourceTree = "<group>";
 		};
 		E2FFFD122C0BDC0600F81072 /* src */ = {
